@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+}
+/*cabeçalho*/
+header{
+    background-color: grey;
+}
+header h1{
+    padding: 10px;
+    text-align: center;
+}
+#hamburguer{
+    background-color: rgb(77, 77, 77);
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#hamburguer:hover{
+    background-color: #fff;
+    color: black;
+}
+menu{
+    display: none;
+}
+menu ul{
+    list-style-type: none;
+}
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    color: #fff;
+    border-top: 2px solid gray;
+}
+menu a:hover{
+    background-color: lightgrey;
+}
+/*conteudo principal*/
+main{
+    width: 85vw;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article h2{
+    padding-bottom: 20px;
+}
+article p{
+    text-align: justify;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}
